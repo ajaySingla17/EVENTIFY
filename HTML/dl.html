@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duty Leave Application</title>
+    <link rel="stylesheet" href="../CSS/dl.css">
+</head>
+<body>
+    <div class="center-container">
+        <div class="container">
+            <h1>Duty Leave Application</h1>
+            <form id="DutyLeave">
+                <div class="alert">Your message sent</div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="class">Class:</label>
+                <input type="text" id="claSS" name="claSS" required><br>
+
+                <label for="roll">Roll No.:</label>
+                <input type="text" id="Rollno" name="Rollno" required><br>
+
+                <label for="eventName">Event Name:</label>
+                <input type="text" id="EventName" name="EventName" required><br>
+
+                <label for="date">Date:</label>
+                <input type="date" id="Date" name="Date" required><br>
+
+                <label for="lecture">Lecture:</label>
+                <input type="text" id="Lecture" name="Lecture" required><br>
+
+                <label for="time">Time:</label>
+                <input type="time" id="Time" name="Time" required><br>
+
+                <button type="submit">Submit</button>
+            </form>
+            <div id="message"></div>
+        </div>
+        <button class="back-btn" id="back">BACK TO HOMEPAGE</button>
+    </div>
+    <script type="module">
+        document.getElementById('back').addEventListener('click', () => {
+          window.location.href = 'homepage.html';
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="../JS/dl.js"></script>
+</body>
+</html>

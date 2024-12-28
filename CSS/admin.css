@@ -1,0 +1,90 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Navigation Bar with Consistent Theme */
+.navbar {
+    background: #111b1d; /* Same as homepage */
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    color: #3edde9; /* Same color as homepage elements */
+}
+
+.all-links {
+    list-style: none;
+    display: flex;
+}
+
+.all-links li {
+    margin: 0 10px;
+}
+
+.all-links a {
+    color: #3edde9; /* Maintain same color scheme */
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.all-links a:hover {
+    color: #38e016; /* Consistent hover effect */
+}
+
+/* Admin Content with Matching Theme */
+.content {
+    background: #9193ac; /* Same as homepage background color */
+    padding: 30px;
+}
+
+.card {
+    background: #fff; /* White card with shadow */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Light shadow */
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    color: #333; /* Dark text */
+}
+
+.card p {
+    font-size: 1rem;
+    color: #666; /* Medium gray text */
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333; /* Dark gray for buttons */
+    color: #fff; /* White text */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555; /* Darker gray on hover */
+}
+
+/* Footer with Consistent Theme */
+footer {
+    background-color: #111b1d; /* Matching navbar and homepage */
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    color: #fff; /* White text for footer */
+    font-size: 0.9rem;
+}

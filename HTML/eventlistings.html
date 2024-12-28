@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listings</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+</head>
+<body>
+    <div class="container">
+        <h1><b>Event Listings</b></h1>
+        <div class="cards">
+            <div class="card" id="card1">
+                <a class="popup-link" href="../IMAGES/Event1.jpg"></a>
+                <img src="../IMAGES/Event1.jpg"alt="Venue 1">
+                <h2>Techno Vision</h2>
+                <button class="book-btn" data-venue="1">View</button>
+            </div>
+            <div class="card" id="card2">
+                <a class="popup-link" href="../IMAGES/Event2.jpg"></a>
+                <img src="../IMAGES/Event2.jpg" alt="Venue 2">
+                <h2>The hack master</h2>
+                <button class="book-btn" data-venue="2">View</button>
+            </div>
+            <div class="card" id="card3">
+                <a class="popup-link" href="../IMAGES/Event3.jpg"></a>
+                <img src="../IMAGES/Event3.jpg" alt="Venue 3">
+                <h2>Codethon</h2>
+                <button class="book-btn" data-venue="3">View</button>
+            </div>
+            <div class="card" id="card4">
+                <a class="popup-link" href="../IMAGES/Event4.jpg"></a>
+                <img src="../IMAGES/Event4.jpg" alt="Venue 3">
+                <h2>Expert Talk Python</h2>
+                <button class="book-btn" data-venue="4">View</button>
+            </div>
+            <div class="card" id="card5">
+                <a class="popup-link" href="../IMAGES/Event5.jpg"></a>
+                <img src="../IMAGES/Event5.jpg" alt="Venue 3">
+                <h2>Literary</h2>
+                <button class="book-btn" data-venue="5">View</button>
+            </div>
+            <div class="card" id="card6">
+                <a class="popup-link" href="../IMAGES/Event6.jpg"></a>
+                <img src="../IMAGES/Event6.jpg" alt="Venue 3">
+                <h2>Lit Fest</h2>
+                <button class="book-btn" data-venue="6">View</button>
+            </div>
+            <div class="card" id="card7">
+                <a class="popup-link" href="../IMAGES/Event7.jpg"></a>
+                <img src="../IMAGES/Event7.jpg" alt="Venue 3">
+                <h2>Poster Making</h2>
+                <button class="book-btn" data-venue="6">View</button>
+            </div>
+            <div class="card" id="card8">
+                <a class="popup-link" href="../IMAGES/Event8.jpg"></a>
+                <img src="../IMAGES/Event8.jpg" alt="Venue 3">
+                <h2>Technophilia</h2>
+                <button class="book-btn" data-venue="6">View</button>
+            </div>
+            <div class="card" id="card9">
+                <a class="popup-link" href="../IMAGES/Event9.jpg"></a>
+                <img src="../IMAGES/Event9.jpg" alt="Venue 3">
+                <h2>TechnoVanza</h2>
+                <button class="book-btn" data-venue="6">View</button>
+            </div>
+        </div>
+    </div>
+    <button class="back-btn" id="back">BACK TO HOMEPAGE</button>
+    <script type="module">
+        document.getElementById('back').addEventListener('click', () => {
+          window.location.href = 'homepage.html';
+        });
+    </script>
+    <script type="module">
+        document.getElementById('card1').addEventListener('click', () => {
+          window.location.href = 'event1.html';
+        });
+        document.getElementById('card2').addEventListener('click', () => {
+          window.location.href = 'event2.html';
+        });
+        document.getElementById('card3').addEventListener('click', () => {
+          window.location.href = 'event3.html';
+        });
+        document.getElementById('card4').addEventListener('click', () => {
+          window.location.href = 'event4.html';
+        });
+        document.getElementById('card5').addEventListener('click', () => {
+          window.location.href = 'event5.html';
+        });
+        document.getElementById('card6').addEventListener('click', () => {
+          window.location.href = 'event6.html';
+        });
+        document.getElementById('card7').addEventListener('click', () => {
+          window.location.href = 'event7.html';
+        });
+        document.getElementById('card8').addEventListener('click', () => {
+          window.location.href = 'event8.html';
+        });
+        document.getElementById('card9').addEventListener('click', () => {
+          window.location.href = 'event9.html';
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+</body>
+</html>

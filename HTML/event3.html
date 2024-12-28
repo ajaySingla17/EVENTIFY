@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+    <link rel="stylesheet" href="../CSS/events.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+</head>
+<body>
+    <div class="container">
+        <h1><b>Venue Bookings</b></h1>
+        <div class="card">
+                <a class="popup-link" href="2.webp"></a>
+                <img src="../IMAGES/Event3.jpg"alt="Venue 1">
+                <h2></h2>
+                <p></p>
+                <button class="book-btn" id="view">View</button>
+        </div>
+    </div>
+    <button class="back-btn" id="back">BACK TO HOMEPAGE</button>
+    <script type="module">
+        document.getElementById('back').addEventListener('click', () => {
+          window.location.href = 'homepage.html';
+        });
+    </script>
+    <script type="module">
+        document.getElementById('view').addEventListener('click', () => {
+            window.location.href = 'eventregisterations.html';
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+</body>
+</html>

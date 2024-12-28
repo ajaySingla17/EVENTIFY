@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Venue</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+</head>
+<body>
+    <div class="container">
+        <h1><b>Venue Bookings</b></h1>
+        <div class="cards">
+            <div class="card" id="card1">
+                <a class="popup-link" href="../IMAGES/2.webp"></a>
+                <img src="../IMAGES/2.webp"alt="Venue 1">
+                <h2>Picasso</h2>
+                <p>A spacious hall for various Technical Events and Expert Talks.</p>
+                <button class="book-btn" data-venue="1">Book Venue</button>
+            </div>
+            <div class="card" id="card2">
+                <a class="popup-link" href="../IMAGES/nss.jpg"></a>
+                <img src="../IMAGES/nss.jpg" alt="Venue 2">
+                <h2>Explore Stars</h2>
+                <p>A spacious hall for various Cultural event practices</p>
+                <button class="book-btn" data-venue="2">Book Venue</button>
+            </div>
+            <div class="card" id="card3">
+                <a class="popup-link" href="../IMAGES/matrix_club_-03-04-2024-0002.jpg"></a>
+                <img src="../IMAGES/matrix_club_-03-04-2024-0002.jpg" alt="Venue 3">
+                <h2>Exploratorium</h2>
+                <p>Auditorium for Main Events</p>
+                <button class="book-btn" data-venue="3">Book Venue</button>
+            </div>
+            <div class="card" id="card3">
+                <a class="popup-link" href="lh7.webp"></a>
+                <img src="../IMAGES/lh7.webp" alt="Venue 3">
+                <h2>De Morgan</h2>
+                <p>Lecture hall 7 for various Technical Events and Expert Talks.</p>
+                <button class="book-btn" data-venue="4">Book Venue</button>
+            </div>
+            <div class="card" id="card3">
+                <a class="popup-link" href="path/to/large/image.jpg"></a>
+                <img src="../IMAGES/3.jpg" alt="Venue 3">
+                <h2>Architecture</h2>
+                <p>Pierre Hall for various Technical Events and Expert Talks.</p>
+                <button class="book-btn" data-venue="5">Book Venue</button>
+            </div>
+            <div class="card" id="card3">
+                <a class="popup-link" href="../IMAGES/5.webp"></a>
+                <img src="../IMAGES/5.webp" alt="Venue 3">
+                <h2>De Morgan</h2>
+                <p>Lab-213 for various Technical Events and Expert Talks.</p>
+                <button class="book-btn" data-venue="6">Book Venue</button>
+            </div>
+        </div>
+        <div class="form-container" id="form-container">
+            <h2>Book Venue</h2>
+            <form id="booking-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                <button type="submit">Book</button>
+            </form>
+        </div>
+    </div>
+    <button class="back-btn" id="back">BACK TO HOMEPAGE</button>
+    <script type="module">
+        document.getElementById('back').addEventListener('click', () => {
+          window.location.href = 'homepage.html';
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="../JS/bookvenue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+</body>
+</html>
